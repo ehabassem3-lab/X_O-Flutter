@@ -20,10 +20,11 @@ class Home extends StatelessWidget {
 
           ) ,
          child: Column(
-           mainAxisSize: MainAxisSize.max,
+        
 
 
            children: [
+        
              Stack(
                children: [
                  Align(
@@ -32,26 +33,29 @@ class Home extends StatelessWidget {
                  Align(
                    alignment: Alignment.center,
                    child: Transform.translate(
-                     offset: Offset(0, 370), // Moves it 150 pixels down from the center
+                     offset: Offset(0, 370), 
                      child: Text(
                        "Tic Tac Toe",
                        style: TextStyle(
                          fontWeight: FontWeight.bold,
-                         fontSize: 60,
+                         fontSize: 40,
                          color: Colors.white,
                        ),
                      ),
                    ),
                  ),
-               ],
-             ) ,
-             Padding(padding: EdgeInsets.all(20)) ,
-             Text(
+                 
+                   Text(
                  "Pick Who Goes First" ,
-               style: TextStyle(fontWeight: FontWeight.normal , fontSize: 30 , color: Colors.white),
+               
+               style: TextStyle(fontWeight: FontWeight.normal , fontSize: 20 , color: Colors.white),
+             ) , 
+               Text(
+                 "Pick Who Goes First" ,
+               
+               style: TextStyle(fontWeight: FontWeight.normal , fontSize: 20 , color: Colors.white),
              ) ,
-             Padding(padding: EdgeInsets.all(5)) ,
-             Row(
+                Row(
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                children: [
                       Container(
@@ -79,6 +83,12 @@ class Home extends StatelessWidget {
                ],
              )
 
+
+               ],
+             ) ,
+               
+        
+          
 
 
 
