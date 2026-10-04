@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:x_o/Home.dart';
+import 'package:x_o/assigmnets/1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Home()
+      home: BasketBall()
     );
   }
 }
